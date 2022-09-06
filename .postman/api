@@ -10,5 +10,7 @@ files[] = {"id":"775865e0-58e7-4f41-9ce5-9d58bfbae8d4","path":"Cloud API_477932-
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:3
