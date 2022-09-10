@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "775865e0-58e7-4f41-9ce5-9d58bfbae8d4",
+		"name": "Cloud API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "477932-775865e0-58e7-4f41-9ce5-9d58bfbae8d4"
+	},
+	"item": [
+		{
+			"name": "https://api.getpostman-beta.com/import/openapi",
+			"id": "890396f4-a861-488f-b920-9831c2d4f144",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "{{X-API-Key}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "x-workspace-id",
+						"value": "6e85300b-2a0c-427a-aceb-bdee7ac373d6",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"type\" : \"json\",\n  \"input\": {\n    \"openapi\": \"3.0.0\",\n    \"info\": {\n  \t  \"version\": \"1.0.0\",\n  \t  \"title\": \"Swagger Petstore\",\n  \t  \"license\": {\n  \t    \"name\": \"MIT\"\n  \t  }\n    },\n    \"servers\": [\n      {\n        \"url\": \"http://petstore.swagger.io/v1\"\n      }\n    ],\n    \"paths\": {\n  \t  \"/pets\": {\n        \"get\": {\n          \"summary\": \"List all pets\",\n          \"operationId\": \"listPets\",\n          \"parameters\": [\n            {\n              \"name\": \"limit\",\n              \"in\": \"query\",\n              \"description\": \"limit\",\n              \"required\": false,\n              \"schema\": {\n                \"type\": \"integer\",\n                \"format\": \"int32\"\n              }\n            }\n          ],\n          \"responses\": {\n            \"default\": {\n              \"description\": \"unexpected error\",\n              \"content\": {\n                \"application/json\": {\n                  \"schema\": {\n                    \"$ref\": \"#/components/schemas/Error\"\n                  }\n                }\n              }\n            }\n          }\n        }\n      }\n    },\n    \"components\": {\n      \"schemas\": {\n        \"Error\": {\n          \"required\": [\n            \"code\",\n            \"message\"\n          ],\n          \"properties\": {\n            \"code\": {\n              \"type\": \"integer\",\n              \"format\": \"int32\"\n            },\n            \"message\": {\n              \"type\": \"string\"\n            }\n          }\n        }\n      }\n    }\n  }\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.getpostman-beta.com/import/openapi",
+					"protocol": "https",
+					"host": [
+						"api",
+						"getpostman-beta",
+						"com"
+					],
+					"path": [
+						"import",
+						"openapi"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
