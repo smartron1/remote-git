@@ -4,7 +4,7 @@
     "version": "1.0.0",
     "title": "Swagger Petstore from remote",
     "license": {
-      "name": "MIT"
+      "name": "MIT 1.0"
     }
   },
   "servers": [

@@ -1,20 +1,20 @@
-id = d1db293c-dc6b-458f-8b2f-e22b509bd74c
+id = 2f19e60b-2331-476e-8dfa-95976f2721f9
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
-files[] = {"id":"775865e0-58e7-4f41-9ce5-9d58bfbae8d4","path":"Cloud API_477932-775865e0-58e7-4f41-9ce5-9d58bfbae8d4 copy.json","metaData":{}}
+files[] = {"id":"775865e0-58e7-4f41-9ce5-9d58bfbae8d4","path":"Cloud API_477932-775865e0-58e7-4f41-9ce5-9d58bfbae8d4.json","metaData":{}}
 files[] = {"id":"6e9ac931-3c4d-4578-b8b8-d381730a955d","path":"New Collection.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"added.yaml","metaData":{}}
 files[] = {"path":"index copy.json","metaData":{}}
 files[] = {"path":"index.json","metaData":{}}
 files[] = {"path":"nested copy.yaml","metaData":{}}
-files[] = {"path":"nested.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
