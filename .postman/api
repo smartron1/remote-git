@@ -11,7 +11,6 @@ files[] = {"id":"6e9ac931-3c4d-4578-b8b8-d381730a955d","path":"New Collection.js
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"added.yaml","metaData":{}}
 files[] = {"path":"index copy.json","metaData":{}}
 files[] = {"path":"index.json","metaData":{}}
 files[] = {"path":"nested copy.yaml","metaData":{}}
