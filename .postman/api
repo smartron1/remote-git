@@ -1,26 +1,36 @@
-id = 6620e3a8-3d6f-493e-8429-983ea677f3d3
+id = 601ced50-72dc-4478-be37-513a9d9800aa
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"479-2d820c83-5c73-4c5c-848b-f713e3e4e3cd","path":"Test Copy(1).json","metaData":{}}
+files[] = {"id":"479-3b791aaf-fa52-4055-98cf-8e0249e4563d","path":"Test Copy(10).json","metaData":{}}
+files[] = {"id":"479-0ff6f244-f7bf-4e33-9b63-7e59318e388e","path":"Test Copy(11).json","metaData":{}}
+files[] = {"id":"479-5f359673-086d-4cf7-a83b-eb03194f779a","path":"Test Copy(12).json","metaData":{}}
+files[] = {"id":"479-3ab865c8-9469-4c36-974e-e5aad9fafc4a","path":"Test Copy(13).json","metaData":{}}
+files[] = {"id":"479-917b903b-99d6-43b9-a5c4-35667235426e","path":"Test Copy(14).json","metaData":{}}
+files[] = {"id":"479-cff43a08-2a21-4ce2-9fb7-0be4961ae7b5","path":"Test Copy(15).json","metaData":{}}
+files[] = {"id":"479-6af6f845-d48a-4f2c-89d5-51c3f5a5bc5a","path":"Test Copy(16).json","metaData":{}}
+files[] = {"id":"479-f5f2463b-6183-4506-9b32-3636e371cab5","path":"Test Copy(17).json","metaData":{}}
+files[] = {"id":"479-3efe3276-c9cc-4a83-b6bc-0d2de0e66185","path":"Test Copy(18).json","metaData":{}}
+files[] = {"id":"479-f3ad6c71-4a59-4cf4-b311-bd1b49d0fc6c","path":"Test Copy(19).json","metaData":{}}
+files[] = {"id":"479-cbd96ff0-f9a3-48fe-857d-0fbce7b06c24","path":"Test Copy(2).json","metaData":{}}
+files[] = {"id":"479-33615052-505a-40fd-b3f9-6da71b639f34","path":"Test Copy(3).json","metaData":{}}
+files[] = {"id":"479-1fcf2593-1aeb-45f1-a30a-64436093ac4d","path":"Test Copy(4).json","metaData":{}}
+files[] = {"id":"479-196047b3-561f-4ad1-97aa-61996fed67f9","path":"Test Copy(5).json","metaData":{}}
+files[] = {"id":"479-f0b5fe59-f7e5-48e5-bf5f-a3f1adbe05c3","path":"Test Copy(6).json","metaData":{}}
+files[] = {"id":"479-1d403ce1-06a5-47f1-8596-5783c5af9d1c","path":"Test Copy(7).json","metaData":{}}
+files[] = {"id":"479-318a0e45-6dcd-4665-8d00-d43b8af91f36","path":"Test Copy(8).json","metaData":{}}
+files[] = {"id":"479-12f3809e-171e-469b-ab7e-6458b70e1e84","path":"Test Copy(9).json","metaData":{}}
+files[] = {"id":"479-38e63b42-dcbd-4a78-a71f-d531453328f7","path":"Test Copy.json","metaData":{}}
 files[] = {"id":"479-27c84bcf-dd4c-4450-b6a7-01191522ff55","path":"Test.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
-files[] = {"path":"index.yaml","metaData":{}}
-files[] = {"path":"index1.json","metaData":{}}
-files[] = {"path":"index10.json","metaData":{}}
-files[] = {"path":"index2.json","metaData":{}}
 files[] = {"path":"index3.json","metaData":{}}
-files[] = {"path":"index4.json","metaData":{}}
-files[] = {"path":"index5.json","metaData":{}}
-files[] = {"path":"index6.json","metaData":{}}
-files[] = {"path":"index7.json","metaData":{}}
-files[] = {"path":"index8.json","metaData":{}}
-files[] = {"path":"index9.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
