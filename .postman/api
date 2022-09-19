@@ -1,14 +1,26 @@
-id = 2f19e60b-2331-476e-8dfa-95976f2721f9
+id = 6620e3a8-3d6f-493e-8429-983ea677f3d3
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"479-27c84bcf-dd4c-4450-b6a7-01191522ff55","path":"Test.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.yaml","metaData":{}}
+files[] = {"path":"index1.json","metaData":{}}
+files[] = {"path":"index10.json","metaData":{}}
+files[] = {"path":"index2.json","metaData":{}}
+files[] = {"path":"index3.json","metaData":{}}
+files[] = {"path":"index4.json","metaData":{}}
+files[] = {"path":"index5.json","metaData":{}}
+files[] = {"path":"index6.json","metaData":{}}
+files[] = {"path":"index7.json","metaData":{}}
+files[] = {"path":"index8.json","metaData":{}}
+files[] = {"path":"index9.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
